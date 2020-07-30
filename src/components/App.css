@@ -1,0 +1,99 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+}
+
+@media (min-width: 50px) {
+    .nav-links {
+        width: 50px;
+    }
+}
+  
+.title {
+    color: gold;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    font-family: 'Lexend Tera', sans-serif;
+    letter-spacing: 5px;
+    font-size: 100px;
+  }
+  
+.homepage {
+    text-align: center;
+    color: rgb(4, 33, 77);
+}
+  
+.homepage img {
+    height: 200px;
+    margin: 1%;
+}
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+.nav-links {
+    display: flex;
+    width: 50%;
+    padding-top: none;
+    color: rgb(51, 156, 163);
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    min-block-size: 40px;
+    background-color: white;
+    text-shadow: 1px 1px 2px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+  
+.nav-links:hover {
+    color: rgb(247, 179, 8);
+}
+  
+.titles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(23, 97, 102);
+}
+  
+.article {
+    color: rgb(152, 199, 202);
+    background: rgb(4, 33, 77);
+    padding: 3%;
+    width: 80%;
+    margin: 0 auto;
+}
+  
+.podcast_card {
+    color: rgb(208, 252, 255);
+    background-color: rgb(12,23,24);
+    padding: 3%;
+    border-width: 50%;
+    width: 400px;
+    display: inline-block;
+    margin: 0.5%;
+}
+  
+.podcastPage {
+    text-align: center;
+}
+  
+.about_card {
+    color: white;
+    padding: 3%;
+    border-width: 50%;
+    width: 400px;
+    display: inline-block;
+    margin: 0.5%;
+    background-color: rgb(51, 156, 163);
+    border-radius: 20px;
+}
+  
+.about_card:hover {
+    box-shadow: 2px 2px 5px rgb(51, 156, 163);
+}

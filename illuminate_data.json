@@ -1,0 +1,58 @@
+{
+    "podcasts" : [
+        {
+            "title" : "Climate Change",
+            "imageURL" : "blub",
+            "summary" : "blub blub"
+        },
+        {
+            "title" : "Gender Inequality",
+            "imageURL" : "blub",
+            "summary" : "blub blub"
+        },
+        {
+            "title" : "BLM Movement",
+            "imageURL" : "blub",
+            "summary" : "blub blub"
+        },
+        {
+            "title" : "Pollution",
+            "imageURL" : "blub",
+            "summary" : "blub blub"
+        }
+
+    ],
+
+    "team" : [
+        {
+            "name" : "Milana Gorobchenko",
+            "imageURL" : "blublbublub",
+            "bio" : "A hardworking young girl set to make a difference"
+        },
+        {
+            "name" : "Milana Gorobchenko",
+            "imageURL" : "blublbublub",
+            "bio" : "A hardworking young girl set to make a difference"
+        },
+        {
+            "name" : "Milana Gorobchenko",
+            "imageURL" : "blublbublub",
+            "bio" : "A hardworking young girl set to make a difference"
+        },
+        {
+            "name" : "Milana Gorobchenko",
+            "imageURL" : "blublbublub",
+            "bio" : "A hardworking young girl set to make a difference"
+        }
+    ],
+
+    "articles" : [
+        {
+            "title" : "Gender Inequality",
+            "subheading" : "Written by Milana Gorobchenko",
+            "content": "s am leaf. Of suspicion do departure at extremely he believing."
+        }
+    ]
+}
+
+
