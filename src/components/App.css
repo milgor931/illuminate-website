@@ -8,6 +8,10 @@ body {
     background-color: aliceblue;
 }
 
+section {
+    border-bottom: 1px solid rgb(0,0,0,0.4);
+}
+
 h1, h2 {
     letter-spacing: 3px;
 }
@@ -126,7 +130,6 @@ nav {
 
 .latestPodcasts {
     height: 50vh;
-    background-color: red;
 }
 
 .videoContainer {
@@ -138,12 +141,11 @@ nav {
 }
 
 .videoContainer div {
-    background-color: ivory;
+    background-color: red;
 }
 
 .comingSoon {
     min-height: 20vh;
-    background-color: green;
 }
 
 .comingSoon i {
@@ -151,7 +153,6 @@ nav {
 }
 
 .bestOfIlluminate {
-    background-color: maroon;
     padding: 2em;
     padding-bottom: 3em;
 }
@@ -159,14 +160,17 @@ nav {
 .blogCard {
     display: flex;
     width: 50vw;
-    background-color: seagreen;
+    background-color: white;
     margin-top: 1em;
+    border: 1px solid rgb(0,0,0,0.4);
+    cursor: pointer;
 }
 
 .blogCard img {
     width: 100px;
     height: 100px;
     margin: 0;
+    border-right: 1px solid rgb(0,0,0,0.4);
 }
 
 footer {
@@ -183,4 +187,18 @@ footer a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.blogCardInfo {
+    padding: 0.2em 1em;
+}
+
+.blogCardInfo * {
+    float: left;
+    clear: both;
+}
+
+.date {
+    font-size: 0.8rem;
+    margin-bottom: 0.4rem;
 }

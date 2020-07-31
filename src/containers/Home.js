@@ -25,7 +25,10 @@ function Home() {
         <ul className='blogCardContainer'>
         <li className='blogCard'>
           <img src="https://www.barproducts.com/media/catalog/product/cache/2/image/640x640/9df78eab33525d08d6e5fb8d27136e95/b/a/barconic-20oz-mason-jar-mug-800.jpg" alt=""/>
-          <div>Do Mason Jars make you cool?</div>
+          <div className='blogCardInfo'>
+            <span className='date'>February 20, 1992</span>
+            <h3>Do Mason Jars make you cool?</h3>
+          </div>
         </li>
         <li className='blogCard'>
           <img src="https://www.barproducts.com/media/catalog/product/cache/2/image/640x640/9df78eab33525d08d6e5fb8d27136e95/b/a/barconic-20oz-mason-jar-mug-800.jpg" alt=""/>
