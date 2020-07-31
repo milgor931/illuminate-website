@@ -14,16 +14,13 @@ h1, h2 {
 
 h1 {
     font-weight: 100;
+    text-transform: uppercase;
 }
 
 @media (min-width: 50px) {
     .nav-links {
         width: 50px;
     }
-}
-
-.noBullet {
-    list-style-type: none;
 }
 
 .title {
@@ -154,13 +151,22 @@ nav {
 }
 
 .bestOfIlluminate {
-    min-height: 40vh;
     background-color: maroon;
+    padding: 2em;
+    padding-bottom: 3em;
 }
 
 .blogCard {
     display: flex;
+    width: 50vw;
+    background-color: seagreen;
+    margin-top: 1em;
+}
 
+.blogCard img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
 }
 
 footer {
@@ -169,4 +175,12 @@ footer {
 
 footer a {
     color: black;
+}
+
+.blogCardContainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
