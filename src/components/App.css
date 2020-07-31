@@ -1,6 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background-color: aliceblue;
+}
+
+h1 {
+    font-weight: 100;
+    letter-spacing: 3px;
 }
 
 @media (min-width: 50px) {
@@ -8,7 +17,7 @@ body {
         width: 50px;
     }
 }
-  
+
 .title {
     color: gold;
     text-align: center;
@@ -21,6 +30,7 @@ body {
 .homepage {
     text-align: center;
     color: rgb(4, 33, 77);
+    background-color: green;
 }
   
 .homepage img {
@@ -96,4 +106,36 @@ nav {
   
 .about_card:hover {
     box-shadow: 2px 2px 5px rgb(51, 156, 163);
+}
+
+.latestPodcasts {
+    height: 50vh;
+    width: 100%;
+    background-color: red;
+    padding: 2em;
+}
+
+.videoContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+    gap: 2em;
+    margin: 2em;
+}
+
+.videoContainer div {
+    background-color: ivory;
+}
+
+.comingSoon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 20vh;
+    padding: 2em;
+}
+
+.comingSoon i {
+    font-size: 2rem;
+    
 }
