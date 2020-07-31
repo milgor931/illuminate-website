@@ -1,5 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
@@ -7,15 +8,22 @@ body {
     background-color: aliceblue;
 }
 
+h1, h2 {
+    letter-spacing: 3px;
+}
+
 h1 {
     font-weight: 100;
-    letter-spacing: 3px;
 }
 
 @media (min-width: 50px) {
     .nav-links {
         width: 50px;
     }
+}
+
+.noBullet {
+    list-style-type: none;
 }
 
 .title {
@@ -30,7 +38,6 @@ h1 {
 .homepage {
     text-align: center;
     color: rgb(4, 33, 77);
-    background-color: green;
 }
   
 .homepage img {
@@ -108,11 +115,21 @@ nav {
     box-shadow: 2px 2px 5px rgb(51, 156, 163);
 }
 
+.flexSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.spaceBetween {
+    padding: 1em;
+    justify-content: space-between;
+}
+
 .latestPodcasts {
     height: 50vh;
-    width: 100%;
     background-color: red;
-    padding: 2em;
 }
 
 .videoContainer {
@@ -128,14 +145,28 @@ nav {
 }
 
 .comingSoon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     min-height: 20vh;
-    padding: 2em;
+    background-color: green;
 }
 
 .comingSoon i {
     font-size: 2rem;
-    
+}
+
+.bestOfIlluminate {
+    min-height: 40vh;
+    background-color: maroon;
+}
+
+.blogCard {
+    display: flex;
+
+}
+
+footer {
+    min-height: 15vh;   
+}
+
+footer a {
+    color: black;
 }
