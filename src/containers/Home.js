@@ -2,6 +2,7 @@ import React from 'react';
 import '../components/App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faInstagramSquare, faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
+import { faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 
 function Home() {
 
@@ -30,6 +31,10 @@ function Home() {
           <div className='blogCardInfo'>
             <span className='date'>February 20, 1992</span>
             <h3>Do Mason Jars make you cool?</h3>
+            <div className='playbackControls'>
+              <FontAwesomeIcon icon={faPlayCircle} />
+              <div className='progressIndicator'></div>
+            </div>
           </div>
         </li>
         <li className='blogCard'>
