@@ -7,7 +7,7 @@ import { faPlayCircle, faVolumeUp } from '@fortawesome/free-solid-svg-icons'
 function Home() {
 
   return (
-    <div className='homepage'>
+    <div className='homepage page'>
       <section className=' latestPodcasts'>
         <h1>LATEST PODCASTS</h1>
         <div className='videoContainer'>

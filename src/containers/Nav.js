@@ -171,6 +171,7 @@ const Nav = props => {
                 <Tab label="Blog" className={classes.tab} component={Link} to="/blog"/>
                 <Tab label="Podcast" className={classes.tab} component={Link} to="/podcast" />
                 <Tab label="About Us" className={classes.tab} component={Link} to="/about"/>
+                <Tab label="Helpful Links" className={classes.tab} component={Link} to="/links"/>
             </Tabs>
         </React.Fragment>
     )
@@ -191,6 +192,9 @@ const Nav = props => {
                     </ListItem>
                     <ListItem onClick={() => {setOpenDrawer(false); setValue(3)}} divider button component={Link} to="/about" selected={value === 3}>
                         <ListItemText className={classes.drawerItem} disableTypography>About Us</ListItemText>
+                    </ListItem>
+                    <ListItem onClick={() => {setOpenDrawer(false); setValue(4)}} divider button component={Link} to="/links" selected={value === 4}>
+                        <ListItemText className={classes.drawerItem} disableTypography>Helpful Links</ListItemText>
                     </ListItem>
                 </List>
                 </div>

@@ -32,15 +32,10 @@ h1 {
 }
 
 .title {
-    color: gold;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    font-family: 'Lexend Tera', sans-serif;
-    letter-spacing: 5px;
-    font-size: 100px;
+    margin: 2rem 0;
 }
   
-.homepage {
+.page {
     text-align: center;
     color: rgb(4, 33, 77);
 }
@@ -250,4 +245,34 @@ footer a {
 
 .volumeIndicator {
     width: 10%;
+}
+
+.linksGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-auto-rows: 250px;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.linksGrid div {
+    background-color: plum;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linksGrid a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+}
+
+.linksGrid h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
 }

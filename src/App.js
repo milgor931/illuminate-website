@@ -4,7 +4,7 @@ import Home from './containers/Home';
 import Blog from './containers/Blog';
 import Podcast from './containers/Podcast';
 import About from './containers/About';
-import Donate from './components/Donate';
+import Links from './components/Links';
 import { BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import { ThemeProvider } from '@material-ui/styles';
@@ -21,7 +21,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/podcast" component={Podcast} />
           <Route path="/about" component={About} />
-          <Route path="/donate" component={Donate} />
+          <Route path="/links" component={Links} />
         </Switch>
       </BrowserRouter>
       </ThemeProvider>
