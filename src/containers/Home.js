@@ -1,5 +1,7 @@
 import React from 'react';
 import '../components/App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faInstagramSquare, faFacebookSquare, faTwitterSquare, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
 
 function Home() {
 
@@ -44,7 +46,13 @@ function Home() {
 
       <footer className='flexSection spaceBetween'>
         <a href=""><h2>see all podcasts</h2></a>
-        <h2>social media icons</h2>
+        <div className='socials'>
+          <FontAwesomeIcon icon={faInstagramSquare} />
+          <FontAwesomeIcon icon={faFacebookSquare} />
+          <FontAwesomeIcon icon={faTwitterSquare} />
+          <FontAwesomeIcon icon={faYoutubeSquare} />
+        </div>
+        
       </footer>
     </div>
   );

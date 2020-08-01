@@ -202,3 +202,12 @@ footer a {
     font-size: 0.8rem;
     margin-bottom: 0.4rem;
 }
+
+.socials {
+    display: inline;
+}
+
+.socials * {
+    margin: 0 0.5em;
+    font-size: 40px;
+}
