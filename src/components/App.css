@@ -16,6 +16,10 @@ ul {
     margin: 1em;
 }
 
+label, input {
+    margin: 1em;
+}
+
 h1, h2 {
     letter-spacing: 3px;
 }

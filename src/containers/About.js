@@ -42,6 +42,26 @@ function About() {
   return (
     <div style={{textAlign: "center"}}>
       {personList}
+
+      <div className='flexSection flex-center'>
+        <h1>contact</h1>
+        <form className='flexSection' action="" method="post">
+          <div>
+            <label htmlFor="name">Name:</label>
+            <input type="text" name="" id=""/>
+          </div>
+
+          <div>
+            <label htmlFor="purpose">Purpose:</label>
+            <input type="text" name="" id=""/>
+          </div>
+
+          <div>
+            <label htmlFor="email">Email:</label>
+            <input type="text" name="" id=""/>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
