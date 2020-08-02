@@ -114,6 +114,7 @@ const useStyles = makeStyles(theme => ({
         backgroundColor: theme.palette.common.blue,
     },
     appBar: {
+        background: 'rgb(0,0,0,0.4)',
         zIndex: theme.zIndex.modal + 1,
     }
 }))
@@ -208,7 +209,7 @@ const Nav = props => {
     return (
         <React.Fragment>
             <ElevationScroll>
-            <AppBar position="fixed" color="primary" className={classes.appBar}>
+            <AppBar position="sticky" color="primary" className={classes.appBar}>
                 <Toolbar disableGutters>
                     <Button disableRipple onClick={() => setValue(0)} className={classes.logoContainer} component={Link} to="/">Illuminate</Button>
                     {matches ? drawer : tabs}

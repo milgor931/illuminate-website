@@ -13,6 +13,7 @@ import theme from './UI/Theme';
 function App() {
   return (
     <div>
+      <img src="https://interactive-examples.mdn.mozilla.net/media/examples/grapefruit-slice-332-332.jpg" alt="not found"/>
       <ThemeProvider theme={theme}>
         <BrowserRouter>
         <Nav />
